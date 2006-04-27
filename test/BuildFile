@@ -1,0 +1,11 @@
+<use name=RecoMuon/DetLayers>
+<use name=RecoMuon/Navigation>
+<use name=RecoMuon/Records>
+<use name=RecoTracker/GeometryESProducer>
+<use name=TrackingTools/DetLayers>
+<use name=FWCore/Framework>
+
+<flags SEAL_PLUGIN_NAME="testRecoMuonNavigation">
+<library file=MuonNavigationTest.cc name=testRecoMuonNavigation>
+</library>
+
