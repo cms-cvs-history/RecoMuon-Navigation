@@ -4,7 +4,7 @@
 <use name=TrackingTools/DetLayers>
 <use name=FWCore/Framework>
 
-<flags EDM_PLUGIN=1>
+<flags SEAL_PLUGIN_NAME="testRecoMuonNavigation">
 <library file=MuonNavigationTest.cc name=testRecoMuonNavigation>
 </library>
 
